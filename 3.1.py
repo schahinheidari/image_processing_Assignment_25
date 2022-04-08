@@ -7,6 +7,8 @@ img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
 res = np.zeros(img.shape)
 rows, cols = img.shape
+
+# Vertical mask
 filter = np.array([[-1,0,1],
                    [-1,0,1],
                    [-1,0,1]])
