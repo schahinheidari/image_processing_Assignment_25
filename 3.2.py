@@ -7,6 +7,8 @@ img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
 res = np.zeros(img.shape)
 rows, cols = img.shape
+
+# Horizontal
 filter = np.array([[-1,-1,-1],
                    [0,0,0],
                    [1,1,1]])
