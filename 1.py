@@ -58,5 +58,6 @@ crop = np.zeros_like(img)
 crop[pieceChoosedMask == 255] = img[pieceChoosedMask == 255]
 
 # show
+cv.imwrite("output/cropped.jpg", crop)
 cv.imshow("cropped", crop)
 cv.waitKey()
