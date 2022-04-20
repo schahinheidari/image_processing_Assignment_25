@@ -69,3 +69,8 @@
 <a href="url"><img src="output/conv25.jpg" align="center" height="200" width="200" ></a>
 <a href="url"><img src="output/conv49.jpg" align="center" height="200" width="200" ></a>
 <a href="url"><img src="output/conv225.jpg" align="center" height="200" width="200" ></a>
+
+<h2> </h2>
+<h3 align="center"> Detect color in video </h3>
+<a href="url"><img src="input/3ShadesOfGray.mp4" align="center" height="400" width="400" ></a>
+<br/>
