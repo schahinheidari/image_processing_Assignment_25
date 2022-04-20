@@ -1,8 +1,8 @@
-import cv2
+import cv2 as cv
 import numpy as np
 
-img = cv2.imread("input/1.jpg")
-img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+img = cv.imread("input/1.jpg")
+img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 numInput = int(input("Choose and input one of the number like 3 - 5 - 7 - 9 - 25 - 49 - 225: "))
 
 def convolution(img, numInput, shape):
@@ -21,4 +21,4 @@ def convolution(img, numInput, shape):
 
 
 res = convolution(img, numInput, img.shape)       
-cv2.imwrite("output/conv7.jpg", res)
+cv.imwrite("output/conv{}.jpg".format(numInput), res)
