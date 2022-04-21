@@ -74,3 +74,7 @@
 <h3 align="center"> Detect color in video </h3>
 <a href="url"><img src="input/3ShadesOfGray.mp4" align="center" height="400" width="400" ></a>
 <br/>
+
+https://user-images.githubusercontent.com/57094845/164412717-dfb5e0c4-13b8-47dc-a496-171bb10fb059.mp4
+
+
